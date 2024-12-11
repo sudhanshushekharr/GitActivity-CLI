@@ -15,7 +15,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/github-activity-fetcher.git
+   git clone https://github.com/sudhanshushekharr/GitActivity-CLI.git
 
 2.Navigate to the project directory:
 
