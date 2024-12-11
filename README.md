@@ -17,19 +17,23 @@
    ```bash
    git clone https://github.com/your-username/github-activity-fetcher.git
 
-   	2.	Navigate to the project directory:
-    cd github-activity-fetcher
+2.Navigate to the project directory:
 
-    	3.	Ensure you have Node.js installed on your system.
+     cd github-activity-fetcher
 
-Usage
-	1.	Run the script with a GitHub username:
+3. Ensure you have Node.js installed on your system.
+
+Usage:
+1.Run the script with a GitHub username:
+
     node github-activity.js <GitHub-username>
-    Replace <GitHub-username> with the GitHub user’s username.
-API Reference
+Replace <GitHub-username> with the GitHub user’s username.
+
+API Reference:
 
 The application uses the GitHub Events API to fetch recent activities:
-https://api.github.com/users/<username>/events
+         
+    https://api.github.com/users/<username>/events
 Project Structure
 	•	github-activity.js: The main file containing the CLI logic and API interaction.
 
